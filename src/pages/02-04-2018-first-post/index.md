@@ -1,10 +1,10 @@
 ---
 path: "/hello-world"
 date: "2018-02-04"
-title: "It's time to Blog"
+title: "It's Time to Blog"
 ---
 
-# Why Blog?
+## Why Blog?
 I enjoy the challenge of creating new projects, especially in the limited time I have outside of work.  I came across a post on [hackernoon](https://hackernoon.com/building-a-static-blog-using-gatsby-and-strapi-8b5acfc82ad8) which involved creating a static blog with Gatsby and Strapi.  Gatsby is a website framework for React.  It was simple to get up and running, and familiar to code since it uses JSX.  Strapi is a Node.js API Contemt Management Framework.  It allows for a quick set-up of an API with a friendly UI to navigate a project build. 
 
 ## Changing Direction
