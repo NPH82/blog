@@ -12,7 +12,7 @@ import '../styles/layout-overide.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Nic's Blog"
+      title="Becoming a Web Developer"
       meta={[
         { name: 'description', content: 'Blog' },
         { name: 'keywords', content: 'Nic, blog, react, graphql, gatsby' },
