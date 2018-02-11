@@ -1,5 +1,5 @@
 ---
-path: "react-graphcool"
+path: "/react-graphcool"
 date: "2018-02-11"
 title: "GraphQL, Webpack, and all that Babel"
 ---
