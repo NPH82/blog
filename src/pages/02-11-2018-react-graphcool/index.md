@@ -1,0 +1,17 @@
+---
+path: "react-graphcool"
+date: "2018-02-11"
+title: "GraphQL, Webpack, and all that Babel"
+---
+
+## What is Graphcool?
+I decided to start exploring React a little more and find out different implementations of databases I could use.  I stumbled across GraphQL many times as I read various posts and articles so I decided to do a deep dive.  So in short Graphcool is a GraphQL Backend Development Framework.  This means I can set up a database, make queries, posts called (mutations), and even use authorization or authentication. It has a Graphical User Interface (GUI) set-up to interact with data online along with their Command Line Interface (CLI) of which I prefer the later.  GraphQL has similarities to SQL and is a recommended database to interact with the React Framework.
+
+##The Deep Dive
+Wanting to understand exactly how a React application was built I started looking at this [website](http://www.react.express/).  It began with npm, a node package manager.  After setting up the package.json file, and running an `npm install` the dependenciesd for the application are installed into the node_modules folder.  Once that is complete, webpack is installed.  Webpack bundles code on the client-side into one file, in this case `bundle.js`.  We can create a development server and configure webpack, but in order for webpack to work it needs two files, the `index.js` and `index.html`.  Although there is quite a bit of setting up, going through this process allowed me to understand how webpack is interacting with the application.  The biggest take away was being able to create environments to develop, test and build the application. For more information about webpack I would suggest reading through their [docs](https://webpack.js.org/).  At this point, it was Babel's turn to come into play.  Babel allows for compiling of newer and experimental JavaScript. Babel takes ES2015 and transforms it into JavaScript to be understood on a wide range of platforms.  
+
+##Now onto React
+Once all the above processes are completed, the `react` and `react-dom` packages can be installed, and with minimal setup a react website has been created.  Now I have used `create-react-app` plenty of times, and it makes sense to quickly get an application up and running quickly instead of going through the process of manual installation.  To be honest, I'm probably more likely to use `create-react-app` more than I will setup another application in this way.  I do feel that building like this did allow me to keep a lighter-weight application though.  It may not have all the bells and whistles available with an automatic creation though it has potential to change and adapt with the necessary requirements.
+
+##What about the rest of React
+I still am building out the application and will probably implement `react-router` and eventually incorporate a proper database using GraphQl.  This has been an interesting process and I was glad the time was available to explore behind the curtain.  I have a great appreciation for those who have trekked ahead of me allowing for a simpler solution to structuring a react application.  I will continue to find out how frameworks are built from the ground up and further my understanding of compilers and new technologies as they emerge.

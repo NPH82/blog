@@ -5,7 +5,7 @@ title: "It's Time to Blog"
 ---
 
 ## Why Blog?
-I enjoy the challenge of creating new projects, especially in the limited time I have outside of work.  I came across a post on [hackernoon](https://hackernoon.com/building-a-static-blog-using-gatsby-and-strapi-8b5acfc82ad8) which involved creating a static blog with Gatsby and Strapi.  Gatsby is a website framework for React.  It was simple to get up and running, and familiar to code since it uses JSX.  Strapi is a Node.js API Contemt Management Framework.  It allows for a quick set-up of an API with a friendly UI to navigate a project build. 
+I enjoy the challenge of creating new projects, especially in the limited time I have outside of work.  I came across a post on [hackernoon](https://hackernoon.com/building-a-static-blog-using-gatsby-and-strapi-8b5acfc82ad8) which involved creating a static blog with Gatsby and Strapi.  Gatsby is a website framework for React.  It was simple to get up and running, and familiar to code since it uses JSX.  Strapi is a Node.js API Content Management Framework.  It allows for a quick set-up of an API with a friendly UI to navigate a project build. 
 
 ## Changing Direction
 After creating and setting up a blog site using the above, I decided it was not the direction I wanted to go.  I did like the blog page I had created, but I wanted something else.  I searched for a different approach and found an article on [medium](https://medium.freecodecamp.org/how-to-build-a-react-and-gatsby-powered-blog-in-about-10-minutes-625c35c06481).  While it actually took me longer than 10 minutes, which is what the title suggested, I like this implementation a little better.  I'm able to create posts in a markdown file, which for some inexplicable reason I enjoy doing.  
