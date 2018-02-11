@@ -14,8 +14,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Nic's Blog"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Blog' },
+        { name: 'keywords', content: 'Nic, blog, react, graphql, gatsby' },
       ]}
     />
     <Header />
@@ -63,12 +63,12 @@ const TemplateWrapper = ({ children }) => (
               
               <div style={{ flex: 1 }}>
                 <Sidebar
-                  title='Blog'
-                  description='Notes and information I have gained through my investigation of web development.'
+                  title='What is this?'
+                  description='My notes, research, and information gained through investigation of web development and current best practices.'
                 /> 
                 <Sidebar
-                  title='About Author'
-                  description='I am a full-stack web developer always exploring new avenues to create and share my knowledge of web development technologies and practices.'
+                  title='Who am I?'
+                  description='A full-stack web developer exploring new avenues to create and share my knowledge of web development technologies and practices.  I primarily use JavaScript and JavaScript Frameworks to build my applications.'
                 />
               </div>
             </div>

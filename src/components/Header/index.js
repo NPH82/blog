@@ -24,8 +24,10 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          My Blog
-        </Link>
+          Becoming a Web Developer-
+          <br />
+           My Failures, Success' and what I've Learned
+           </Link>
       </h1>
     </div>
   </div>
