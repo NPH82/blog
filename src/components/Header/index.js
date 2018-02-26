@@ -26,7 +26,7 @@ const Header = () => (
         >
           Becoming a Web Developer-
           <br />
-           My Failures, Success' and what I've Learned
+           My Failures, Achievements and What I've Learned
            </Link>
       </h1>
     </div>

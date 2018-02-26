@@ -4,7 +4,7 @@ date: "2018-02-25"
 title: "MockFlow"
 ---
 
-##Wireframes
+##Wireframes.
 Time to begin wireframing my project, but which service do I use?  I had heard of [Marvel App](https://marvelapp.com/) and [Balsamiq](https://balsamiq.com/), but for some reason [MockFlow](https://www.mockflow.com/) seemed to speak to me.  I don't really know why? It must have been a combination of never seeing it in action before, and their landing page making the process look simple.  Reflecting on it now, Marvel App uses a React framework, that should have been my first choice. Oh well, I digress.  I actually really enjoyed creating the wireframe on MockFlow.
 
 ##Getting Started
